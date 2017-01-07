@@ -47,3 +47,6 @@ Meteor.user = ( arg1, arg2 ) => {
 	}
 	return ( Meteor._user() );
 };
+
+// Log
+global.log = arg => ( console.log( arg ), arg );
